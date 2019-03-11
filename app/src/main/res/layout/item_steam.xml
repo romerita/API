@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/achievementApiname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/achievementAchieved"
+        android:layout_width="match_parent"
+        android:textColor="@color/dark"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/achievementUnlocktime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/dark"
+        />
+
+</LinearLayout>
