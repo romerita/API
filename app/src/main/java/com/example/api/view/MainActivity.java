@@ -148,9 +148,7 @@ public class MainActivity extends AppCompatActivity {
                     return new OwnedGamesFragment();
                 default:
                     return new PlayerAchievementsFragment();
-
             }
-            
         }
 
         @Override
