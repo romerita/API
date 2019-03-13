@@ -14,6 +14,6 @@ public interface SteamdbAPI {
     @GET("/ISteamUserStats/GetUserStatsForGame/v0002/")
     Call<GameAchievements> getUserStatsForGame(@Query(value="appid") int gameid);
 
-    @GET("/ISteamUserStats/GetOwnedGames/v0001/")
+    @GET("IPlayerService/GetOwnedGames/v0001/")
     Call<OwnedGamesResponse> getOwnedGames();
 }
